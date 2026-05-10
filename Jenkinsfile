@@ -6,7 +6,7 @@ pipeline {
  stages {
  stage('Checkout') {
  steps {
- git branch: 'main', url: 'https://github.com/AbhijnaGowda3/MyMavenApp1.git'
+ git branch: 'main', url: 'https://github.com/AbhijnaGowda3/practice1.git'
  }
  }
  stage('Build') {
