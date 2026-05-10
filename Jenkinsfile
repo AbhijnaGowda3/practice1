@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/AbhijnaGowda3/practice1.git'
+                git branch: 'Main', url: 'https://github.com/AbhijnaGowda3/practice1.git'
             }
         }
 
@@ -40,8 +40,4 @@ pipeline {
             echo 'Build failed!'
         }
     }
-<<<<<<< HEAD
-}
-=======
 
->>>>>>> 643f155 (updated)
