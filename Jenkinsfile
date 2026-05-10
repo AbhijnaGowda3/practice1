@@ -40,4 +40,8 @@ pipeline {
             echo 'Build failed!'
         }
     }
+<<<<<<< HEAD
 }
+=======
+
+>>>>>>> 643f155 (updated)
